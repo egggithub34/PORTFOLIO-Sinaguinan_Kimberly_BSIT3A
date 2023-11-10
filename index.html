@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="css/4.1.1/animate.min.css">
+    <style>
+        body {
+            background-image: url('asset/cat1.png'); 
+            background-size: none;
+            background-repeat: no-repeat;
+            background-position: center bottom; 
+            background-attachment: fixed;
+            text-align: center;
+            color: white;
+            background-color: #cbbca6;
+            text-align: center;
+            padding-bottom: 100px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-top: 100px;
+        }
+        .text-brown {
+            color: rgb(80, 61, 15);
+        }
+
+        @keyframes moveButton {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+            100% { transform: translateY(0); }
+        }
+        .custom-button {
+            animation: moveButton 1s infinite; 
+        }
+        p {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        button {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5 text-brown  animate-text ">Welcome to My Personal Website</h1>
+        <b><p class="lead text-brown animate-text ">Connect with Kimberly Sinaguinan</p></b>
+        <br>
+        <br>
+        <a href="portfolio.html" class="btn btn-primary btn-lg custom-button">Click me!</a>
+    </div>
+    
+</body>
+</html>

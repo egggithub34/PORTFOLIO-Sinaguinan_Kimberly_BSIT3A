@@ -1,0 +1,303 @@
+
+.nav-link:hover {
+    background-color: white;
+    color: black;
+    transition: transparent 0.3s ease, color 0.3s ease;
+  }
+  
+
+.bg-dark-brown {
+    background-color:  #e9e1d7;
+}
+.bg-light{
+    background-color: #cbbca6;
+}
+.bg-warning-yellow{
+    background-color: #d6d0c6;
+}
+
+ body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+}
+/* home */
+h1 {
+    font-size: 36px;
+    margin-top: 100px;
+}
+.custom-font {
+    font-family: ' Roboto', sans-serif; 
+}
+/*IMAGE */
+.small-img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+  }
+
+  .small-img:hover {
+    transform: scale(1.2); 
+  }
+
+/* Portfolio1 */
+.home-section{
+    background-image: url('asset/bgbg.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 105vh;
+    color: #fff;
+    padding: 100px 0;
+}
+.sec-section{
+    background-image: url('asset/hbg.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 105vh;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.card-section {
+    background-image: url('asset/hbg.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 105vh;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.small-img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .small-img {
+        max-width: 50%; 
+    }
+}
+
+.social-icons {
+    display: flex; 
+    align-items: center; 
+}
+
+.icon {
+    width: 30px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+
+     .dropdown-content {
+        display: none;
+        padding: 20px;
+        background-color: #f1f1f1;
+        border: 1px solid #ccc;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .section-container {
+        margin-top: 20px;
+    }
+
+    .address-card {
+        background-color: #f1f1f1;
+        padding: 20px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+
+    .address-image {
+        max-width: 100%;
+        height: auto;
+    }
+/* image card */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.image-container img {
+    max-width: 300%;
+    height: auto;
+}
+
+/* Styles for the image cards */
+.image-card {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(230, 222, 222, 0.2);
+    transition: transform 0.2s;
+    max-width: 100%;
+}
+
+.image-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Resize the entire image container */
+.card-section .image-container {
+    max-width: 100%; 
+    height: auto; 
+}
+.image-card:hover {
+    transform: scale(1.05);
+}
+
+.image-card-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0px;
+}
+
+.image-card-caption h5
+.image-card-caption p {
+    margin: 2px;
+    color: #f0dada;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.col-lg-6 {
+    width: 50%;
+    float: left;
+}
+
+@media (max-width: 768px) {
+    .col-lg-6 {
+        width: 100%;
+        float: none;
+    }
+}
+
+.custom-img-size {
+    width: 250px; 
+    height: auto;
+}
+
+
+.header-emphasis {
+    font-size: 48px;
+    font-weight: bold;
+    color:  #8591aa; 
+}
+
+@keyframes moveButton {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+}
+
+.custom-button {
+    animation: moveButton 1s infinite; 
+}
+button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.custom-button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* skills*/
+.progress-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    background: conic-gradient(#007bff 80%, #f0f0f0 0 100%);
+}
+
+.progress-circle-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    transform: rotate(0deg);
+}
+
+.progress-circle-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+/* Birth day*/
+
+.birthday-container {
+    text-align: center;
+}
+
+.birthday-card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+}
+
+.birthday-image {
+    max-width: 100%;
+}
+
+.entry-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entry-date {
+    background-color: #ddb2d0;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 20px;
+    margin: 0 auto;
+}
+
+
+
+.date-day {
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.date-month {
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
